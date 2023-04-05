@@ -1,4 +1,4 @@
-# ESP32 board specs and information
+# ESP microcontroller and related resources
 
 ## ESP32 board specs
 ESP32 overview [link](https://docs.micropython.org/en/latest/esp32/quickref.html)
@@ -23,3 +23,14 @@ Refer to Gtown doorbell [script](https://github.com/GeorgetownMakerHubOrg/iot_do
 [Feed practice](https://io.adafruit.com/oinoinoin/feeds/luminance)
 
 [Adafruit IO](https://io.adafruit.com/api/docs/?python#create-multiple-data-records)
+
+[Example feed](https://io.adafruit.com/maiden/public)
+
+
+## MQTT (Mosquitto) protocol
+[Official website](https://mqtt.org/)
+
+MQTT explorer (application) is useful
+
+### Tasmota MQTT
+Plug in the sonoff3 switch, then go to http://10.120.9.245/
