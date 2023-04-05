@@ -7,8 +7,16 @@ For more in-depth discussion and brainstorming, see FloraFlow Google Drive (shar
 Box generator: [Boxes.py](https://festi.info/boxes.py/)
 - See TypeTray
 
+## Acrylic fingered boxes
+Waterfall reservoir
+
+
+Watering chambers
+
+
 ## 3D printed parts
-Pot lifters x6
+FlowLifts x6
 
-Scoopity scoop x1
+FloraStream x1 (PETG)
 
+Clamp for belt x1 (PETG)
