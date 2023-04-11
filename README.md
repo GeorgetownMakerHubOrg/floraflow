@@ -10,9 +10,11 @@ The goal of this project is to give people opportunities to learn about various 
 
 # On-boarding
 
-To familiarize yourself with the build, go to the [design section below](https://github.com/GeorgetownMakerHubOrg/floraflow/tree/main/design) to first learn about the design, then go to the [teams section]() to see which teams you are interested in joining. There is no limit to the number of teams you can join ;)
+At our first meeting, we will first introduce the project and its motivations, then go over each component and the skills and tools that it teaches, so people know what they want to learn. We'll also present a (pretty packed) timeline for building the project, step by step. You can sign up (please sign up!) then show up during that build session and come to learn how that step is done and/or to participate in the build itself.
 
-After signing up, go to its appropriate folder to read its README.md and get started!
+To familiarize yourself with the build, go to the [design section below](https://github.com/GeorgetownMakerHubOrg/floraflow#floraflow-design) to first learn about the design, then go to the [timeline](https://github.com/GeorgetownMakerHubOrg/floraflow#timeline) to see which build sessions you are interested in attending to learn and/or participate in the build. 
+
+A note on team organization: I made the deliberate choice not to divide the build effort into smaller teams. For one, this project is on a tight timeline to finish before the semester ends, so we want more action, less hierarchy. Second, I think the MVP scope is small enough not to require people to spend a lot of time focusing on one thing. Third, I don't want people to be arbitrarily siloed, but would love for anyone who wishes so to be able to learn multiple engineering tools through this project.
 
 # FloraFlow Design
 
@@ -74,3 +76,10 @@ These roughly correspond to the build teams.
 	- [OpenSCAD gear](https://github.com/dpellegr/PolyGear)
 	- [English version of the above](https://github.com/chrisspen/gears)
 
+# Timeline
+- [ ] Build session 1
+- [ ] Build session 2
+- [ ] Build session 3
+- [ ] Build session 4
+- [ ] Build session 5
+- [ ] Build session 6
