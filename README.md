@@ -12,7 +12,7 @@ The goal of this project is to give people opportunities to learn about various 
 
 To familiarize yourself with the build, go to the [design section below](https://github.com/GeorgetownMakerHubOrg/floraflow#floraflow-design) to learn about the design.
 
-To contribute to this repository with design specifications, files, and resources, clone this repo, request edit access, and add specs to this document and files to the appropriate folder. (Consider calling `source update-version-and-push.sh` to also update the semantic versioning of this system before updating each time. This script does semantic version update, git pull, git add, git commit, and git push for you.)
+To contribute to this repository with design specifications, files, and resources, clone this repo, request edit access, and add specs to this document and files to the appropriate folder. (Consider calling `source update-version-and-push.sh` to also update the semantic versioning of this system after adding / updating any non-README file. This script does semantic version update, git pull, git add, git commit, and git push for you.)
 
 # FloraFlow Design
 
@@ -82,6 +82,8 @@ These roughly correspond to the build teams.
 	- [English version of the above](https://github.com/chrisspen/gears)
 
 # Timeline
-|date|build session number|component to build|skills involved|
-|---|---|---|---|
-|2023-04-19|1|component|skills|
+|date|component(s) to design / build OR goal for next time|skills involved OR task delegation|
+|---|---|---|
+|2023-04-19|improve HydroSpout design & design belt holder|Fusion360|
+|2023-04-19|set up initial stepper motor control via ESP|circuitry, ESP micropython REPL|
+|2023-04-19|prioritize completing physical prototype and leave software for later, prepare for protoboard integration for stepper motor control, prepare for waterfall reservoir + hydrospout integration|practice running stepper motor script, practice acrylic gluing, finalize hydrospout design, learn MQTT and HTTP and how to run them on ESP|

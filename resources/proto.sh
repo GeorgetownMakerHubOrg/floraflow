@@ -1,5 +1,3 @@
-# Prototyping helper functions
-
 # source this file to load a few useful ESP interface helper functions grouped under the function name 'ei' (change 'ei' to something else if it collides with an existing command. You can check whether it collides by typing `type ei` and seeing if you get anything.)
 
 ei() {
@@ -13,7 +11,7 @@ ei() {
 
   <option>s:
     h | help               - help menu
-	cs                     - ESP interface cheatsheet (such as how to use screen)
+    cs                     - ESP interface cheatsheet (such as how to use screen)
     s | screen | go        - connect to ESP board via screen
     a | ampy <cmd> <args>  - connect to ESP board via ampy
 
