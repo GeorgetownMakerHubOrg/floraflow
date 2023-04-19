@@ -22,7 +22,7 @@ To be further fleshed out.
 
 ## Resources
 
-- Box generator: [Boxes.py](https://festi.info/boxes.py/)
+For resources, see [resources page](https://github.com/GeorgetownMakerHubOrg/floraflow/tree/main/resources)
 
 ## Materials Overview
 
