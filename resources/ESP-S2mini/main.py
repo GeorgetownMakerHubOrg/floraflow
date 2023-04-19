@@ -1,0 +1,3 @@
+import satellite
+satellite.main()
+

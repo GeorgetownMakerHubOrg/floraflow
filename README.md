@@ -66,20 +66,21 @@ These roughly correspond to the build teams.
 - see Fusion360 shared file [here (inactive)]()
 
 ### 4 - FloraStream: Waterfall stream-diverter + contraption + controller
-#### Diverter x1 (PETG)
+#### Stream diverter (HydroSpout) x1 (PETG)
 
-#### FloraStream servo + controller
+#### servo + controller
+- TMC2208 (see folder for pin usage suggestion)
+- 12volt power for the stepper motor: 
+	- Adafruit protoboard, female connector 
+	- power jack plug adapter
 
-#### FloraStream contraption
+#### belt contraption
 - belt clamp x1 (PETG)
 - Gear system options:
 	- [OpenSCAD gear](https://github.com/dpellegr/PolyGear)
 	- [English version of the above](https://github.com/chrisspen/gears)
 
 # Timeline
-- [ ] Build session 1
-- [ ] Build session 2
-- [ ] Build session 3
-- [ ] Build session 4
-- [ ] Build session 5
-- [ ] Build session 6
+|date|build session number|component to build|skills involved|
+|---|---|---|---|
+|2023-04-19|1|component|skills|
