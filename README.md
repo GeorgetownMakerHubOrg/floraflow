@@ -50,7 +50,8 @@ No special names here...
 
 These roughly correspond to the build teams.
 
-### 1 - Outer container (no name yet!)
+### 1 - Outer box
+- 3/4" x 4' x 4' plywood (Pascal)
 
 ### 2 - FloraFalls: Waterfall reservoir + pump + controller
 #### Waterfall reservoir
