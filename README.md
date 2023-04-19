@@ -10,15 +10,15 @@ The goal of this project is to give people opportunities to learn about various 
 
 # On-boarding
 
-At our first meeting, we will first introduce the project and its motivations, then go over each component and the skills and tools that it teaches, so people know what they want to learn. We'll also present a (pretty packed) timeline for building the project, step by step. You can sign up (please sign up!) then show up during that build session and come to learn how that step is done and/or to participate in the build itself.
+To familiarize yourself with the build, go to the [design section below](https://github.com/GeorgetownMakerHubOrg/floraflow#floraflow-design) to learn about the design.
 
-To familiarize yourself with the build, go to the [design section below](https://github.com/GeorgetownMakerHubOrg/floraflow#floraflow-design) to first learn about the design, then go to the [timeline](https://github.com/GeorgetownMakerHubOrg/floraflow#timeline) to see which build sessions you are interested in attending to learn and/or participate in the build. 
-
-A note on team organization: I made the deliberate choice not to divide the build effort into smaller teams. For one, this project is on a tight timeline to finish before the semester ends, so we want more action, less hierarchy. Second, I think the MVP scope is small enough not to require people to spend a lot of time focusing on one thing. Third, I don't want people to be arbitrarily siloed, but would love for anyone who wishes so to be able to learn multiple engineering tools through this project.
+To contribute to this repository with design specifications, files, and resources, clone this repo, request edit access, `git pull`, add specs to this document and files to the appropriate folder, then `git push`!
 
 # FloraFlow Design
 
-Design specs last updated April 10, 2023.
+Design specs last updated April 19, 2023.
+
+To be further fleshed out.
 
 ## Resources
 
