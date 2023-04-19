@@ -48,26 +48,39 @@ No special names here...
 
 ## Design Specifications
 
-These roughly correspond to the build teams.
+These correspond to the main pieces.
 
 ### 1 - Outer box
 - 3/4" x 4' x 4' plywood (Pascal)
+- door or magnetically shut opening facing the indoor that lets you see the inside
+- metal hook 2x
 
 ### 2 - FloraFalls: Waterfall reservoir + pump + controller
 #### Waterfall reservoir
+- Boxes.py Fewer fingers
+- Boxes.py -> Adobe Illustrator adjustments -> Laser Cutting (David) -> Assembly & Gluing
 
 #### Waterfall pump + controller
+- Sonoff3 (connected to Anker hub); communicates with the ESP controller for the FloraStream via HTTP
 
 ### 3 - FloraLanes: Inner tri-lane container + pot raisers
 #### Watering chambers (FloraLanes / BloomBrooks)
-- boxes.py "TypeTray" specs (David)
+- boxes.py "TypeTray" specs
+- don't know yet what to use to lift the container. currently, we're just using the pots themselves.
 
 #### FlowLifts: Pot lifters
-- see 3d STL files at [FlowLift design]
-- see Fusion360 shared file [here (inactive)]()
+- designed in Fusion360 by Q
+- see 3d obj / stl files at [FlowLift design](https://github.com/GeorgetownMakerHubOrg/floraflow/tree/main/3-FloraLanes/FlowLifts)
 
 ### 4 - FloraStream: Waterfall stream-diverter + contraption + controller
-#### Stream diverter (HydroSpout) x1 (PETG)
+#### Stream diverter (Hydrospout) x1 (PETG)
+- designed in Fusion360 by David
+- see 3d obj / stl files at [Hydrospout design](https://github.com/GeorgetownMakerHubOrg/floraflow/tree/main/4-FloraStream/Hydrospout)
+
+##### (subcomponent) belt contraption
+- designed in Fusion360 by David
+- see 3d obj / stl files at Hydrospout design (same as for Hydrospout)
+- belt clamp x1 (PETG)
 
 #### servo + controller
 - TMC2208 (see folder for pin usage suggestion)
@@ -75,15 +88,9 @@ These roughly correspond to the build teams.
 	- Adafruit protoboard, female connector 
 	- power jack plug adapter
 
-#### belt contraption
-- belt clamp x1 (PETG)
-- Gear system options:
-	- [OpenSCAD gear](https://github.com/dpellegr/PolyGear)
-	- [English version of the above](https://github.com/chrisspen/gears)
-
 # Timeline
 |date|component(s) to design / build OR goal for next time|skills involved OR task delegation|
 |---|---|---|
-|2023-04-19|improve HydroSpout design & design belt holder|Fusion360|
+|2023-04-19|improve Hydrospout design & design belt holder|Fusion360|
 |2023-04-19|set up initial stepper motor control via ESP|circuitry, ESP micropython REPL|
 |2023-04-19|prioritize completing physical prototype and leave software for later, prepare for protoboard integration for stepper motor control, prepare for waterfall reservoir + hydrospout integration|practice running stepper motor script, practice acrylic gluing, finalize hydrospout design, learn MQTT and HTTP and how to run them on ESP|
