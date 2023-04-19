@@ -12,7 +12,7 @@ The goal of this project is to give people opportunities to learn about various 
 
 To familiarize yourself with the build, go to the [design section below](https://github.com/GeorgetownMakerHubOrg/floraflow#floraflow-design) to learn about the design.
 
-To contribute to this repository with design specifications, files, and resources, clone this repo, request edit access, `git pull`, add specs to this document and files to the appropriate folder, then `git push`!
+To contribute to this repository with design specifications, files, and resources, clone this repo, request edit access, and add specs to this document and files to the appropriate folder. (Consider calling `source update-version-and-push.sh` to also update the semantic versioning of this system before updating each time. This script does semantic version update, git pull, git add, git commit, and git push for you.)
 
 # FloraFlow Design
 
