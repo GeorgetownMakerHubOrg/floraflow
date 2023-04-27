@@ -11,7 +11,7 @@ We're specifically using ESP32-S2 Mini: ESP32-S2FN4R2
 
 
 ## ESP32 board usage
-For more information, see my local cheat sheet (which I will upload here regularly).
+For more information, see my local cheat sheet (which I will upload here regularly).  Hoping that 
 
 ### Understanding WIFI
 - Difference between station interface and access-point interface [Link](https://www.phind.com/search?cache=b09bc23a-eb5d-42ac-a63f-3a9eb64b3376)
@@ -20,7 +20,7 @@ For more information, see my local cheat sheet (which I will upload here regular
 - See ReadTheDocs for micropython. [Link here](http://docs.micropython.org/en/latest/esp32/quickref.html)
 - [Learn to get started with MicroPython on S2](https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_micropython_s2.html)
 
-Refer to Gtown doorbell [script](https://github.com/GeorgetownMakerHubOrg/iot_doorbell/blob/master/doorbell.py) for how to update to dashboard.
+Refer to Gtown doorbell [script](https://github.com/GeorgetownMakerHubOrg/iot_doorbell/blob/master/doorbell.py) for how to update to dashboard as well as how to HTTP POST to a site (including the Sonoff/Tasmota pump switch).
 
 ### Adafruit Dashboard API
 [Feed practice](https://io.adafruit.com/oinoinoin/feeds/luminance)
@@ -29,10 +29,11 @@ Refer to Gtown doorbell [script](https://github.com/GeorgetownMakerHubOrg/iot_do
 
 [Example feed](https://io.adafruit.com/maiden/public)
 
-## MQTT (Mosquitto) protocol
-[Official website](https://mqtt.org/)
 
-MQTT explorer (application) is useful
+## MQTT (Mosquitto) protocol or HTTP Requests
+Managing the Sonoff S31 switch can done from the ESP32 MCU using either MQTT - [Official website](https://mqtt.org/) or vanilla HTTP requests (see MicroPython urequests for details).   HTTP access is configured under the "Configuration->Other" on the Sonoff/Tasmota switch.
+
+MQTT explorer, available on MacOS, Linux, and M$FT) is useful for debugging MQTT publish/subscribe issues.
 
 ### Tasmota MQTT
 Plug in the sonoff3 switch, then go to http://10.120.9.245/
