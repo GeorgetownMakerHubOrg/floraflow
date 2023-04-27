@@ -18,6 +18,7 @@ For more information, see my local cheat sheet (which I will upload here regular
 
 ### Micropython general usage
 - See ReadTheDocs for micropython. [Link here](http://docs.micropython.org/en/latest/esp32/quickref.html)
+- See Micropython GitHub issues for help when [resolving bugs](https://github.com/micropython/micropython/issues)
 - [Learn to get started with MicroPython on S2](https://www.wemos.cc/en/latest/tutorials/s2/get_started_with_micropython_s2.html)
 
 Refer to Gtown doorbell [script](https://github.com/GeorgetownMakerHubOrg/iot_doorbell/blob/master/doorbell.py) for how to update to dashboard as well as how to HTTP POST to a site (including the Sonoff/Tasmota pump switch).
