@@ -98,3 +98,4 @@ These correspond to the main pieces.
 |2023-04-26|understand how to operate Micropython REPL and files|Micropython REPL|
 |2023-04-27|print pot raisers|Fusion360, 3D printer|
 |2023-04-27|figure out Micropython web server and posting to Sonoff|learning Python modules: network, socket, urequests, etc.; learning how to read Micropython manual|
+|2023-04-28|figure out pulley system, print out pulley holders, finalize pulley dimensions|Fusion360, calipers, understanding timing belt assemblies|
