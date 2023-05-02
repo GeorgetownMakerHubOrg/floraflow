@@ -42,3 +42,6 @@ Plug in the sonoff3 switch, then go to http://10.120.9.245/
 ## ESP Over-The-Air (OTA) updates
 - Via [GitHub releases](https://github.com/rdehuyss/micropython-ota-updater)
 	- A [Medium article on this](https://medium.com/@ronald.dehuysser/micropython-ota-updates-and-github-a-match-made-in-heaven-45fde670d4eb)
+
+# ESP32 Web server tutorials
+- [ESP32 web server tutorial](http://www.energiazero.org/arduino/esp32/electronicshub.org-a%20complete%20beginners%20tutorial%20on%20how%20to%20create%20esp32%20web%20server.pdf)
